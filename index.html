@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Matemático con Voz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <p>Cargando...</p>
+    </div>
+    <div class="chat-container" style="display: none;">
+        <div class="sidebar">
+            <h2>Juego Matemático con Voz</h2>
+            <button id="start-btn">Iniciar</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Mensajes del chatbot aparecerán aquí -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Escribe tu respuesta aquí..." />
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
